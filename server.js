@@ -1,5 +1,5 @@
 const express = require('express'),
-      express_graphql = require('express-graphql')
+      express_graphql = require('express-graphql'),
       app = express();
 
 var { buildSchema } = require('graphql');
